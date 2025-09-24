@@ -16,52 +16,57 @@
     <img src="https://press.warhorsestudios.cz/uploads/KCD_2_Logo_Render_01_STG_13v1_9836a817ed.jpg" alt="KCD II">
 </header>
 
-<div class="content">
-    <h1>Kingdom Come: Deliverance II</h1>
+<div class="windows-container">
 
-    <p>
-        Kingdom Come: Deliverance 2 — це продовження відомої рольової гри у відкритому світі,
-        що переносить гравця у реалістичну атмосферу середньовічної Богемії.
-        Вас чекають битви, лицарські турніри, історичні події та справжній дух епохи.
-    </p>
+    <div class="left-column">
+        <div class="window text-window">
+            <p>
+                Kingdom Come: Deliverance 2 — продовження відомої рольової гри у відкритому світі.
+                Гравець потрапляє у реалістичну атмосферу середньовічної Богемії, де чекають битви, лицарські турніри та історичні події.
+            </p>
+        </div>
 
-    <h2>Середньовічна атмосфера</h2>
-    <div class="image-blur">
-        <img src="https://press.warhorsestudios.cz/uploads/KCD_2_Logo_Render_01_STG_13v1_9836a817ed.jpg" alt="KCD II">
+        <div class="window video-window">
+            <h2>Трейлер гри</h2>
+            <iframe src="https://www.youtube.com/embed/ju8R8gwD-Vg" title="KCD II Trailer" allowfullscreen></iframe>
+        </div>
     </div>
 
-    <h2>Події та локації Куттенберга</h2>
-    <table>
-        <tr>
-            <th>Подія</th>
-            <th>Локація</th>
-            <th>Опис</th>
-        </tr>
-        <tr>
-            <td>Обід у таверні</td>
-            <td>Центр міста</td>
-            <td>Місце для зустрічі з NPC та отримання завдань.</td>
-        </tr>
-        <tr>
-            <td>Відвідини кузні</td>
-            <td>Кузня Куттенберга</td>
-            <td>Тут можна купити або полагодити обладунки та зброю.</td>
-        </tr>
-        <tr>
-            <td>Ринок</td>
-            <td>Головна площа</td>
-            <td>Торгівля товарами, рідкісними інгредієнтами та ресурсами.</td>
-        </tr>
-        <tr>
-            <td>Місцевий храм</td>
-            <td>Східна частина міста</td>
-            <td>Можна отримати духовні квести та покращити репутацію.</td>
-        </tr>
-    </table>
+    <div class="right-column">
+        <div class="window table-window">
+            <h2>Події та локації Куттенберга</h2>
+            <table>
+                <tr>
+                    <th>Подія</th>
+                    <th>Локація</th>
+                    <th>Опис</th>
+                </tr>
+                <tr>
+                    <td>Обід у таверні</td>
+                    <td>Центр міста</td>
+                    <td>Місце для зустрічі з NPC та отримання завдань.</td>
+                </tr>
+                <tr>
+                    <td>Відвідини кузні</td>
+                    <td>Кузня Куттенберга</td>
+                    <td>Тут можна купити або полагодити обладунки та зброю.</td>
+                </tr>
+                <tr>
+                    <td>Ринок</td>
+                    <td>Головна площа</td>
+                    <td>Торгівля товарами, рідкісними інгредієнтами та ресурсами.</td>
+                </tr>
+                <tr>
+                    <td>Місцевий храм</td>
+                    <td>Східна частина міста</td>
+                    <td>Можна отримати духовні квести та покращити репутацію.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
-    <h2>Трейлер гри</h2>
-    <iframe src="https://www.youtube.com/embed/ju8R8gwD-Vg" title="KCD II Trailer" allowfullscreen></iframe>
 </div>
+
 
 <script>
 let lastScroll = 0;
@@ -83,5 +88,3 @@ window.addEventListener("scroll", () => {
 </script>
 </body>
 </html>
-
-
