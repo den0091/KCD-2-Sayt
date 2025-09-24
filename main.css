@@ -217,3 +217,80 @@ tr:hover {
     filter: drop-shadow(0 0 15px rgba(0,0,0,0.7));
     border-radius: 15px;
 }
+/* ===== Контейнер для двох колонок ===== */
+.windows-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* ===== Ліва колонка: текст + відео ===== */
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1 1 400px;
+    max-width: 500px;
+}
+
+/* ===== Права колонка: таблиця ===== */
+.right-column {
+    flex: 1 1 500px;
+    max-width: 500px;
+}
+
+/* ===== Вікна ===== */
+.window {
+    background: rgba(0,0,0,0.75);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Текстове вікно */
+.text-window p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Таблиця */
+.table-window table {
+    width: 100%;
+    height: 480px; /* приблизно як відео */
+}
+
+/* Відео */
+.video-window iframe {
+    width: 100%;
+    height: 480px;
+}
+/* Додаємо відступ зверху для лівої колонки */
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1 1 400px;
+    max-width: 500px;
+    margin-top: 20px; /* <-- додано відступ зверху */
+}
+
+/* Якщо потрібно окремо для текстового вікна */
+.text-window {
+    margin-top: 50px; /* можна підкоригувати значення під розмір шапки */
+}
+/* Відступ зверху для правої колонки (таблиця) */
+.right-column {
+    flex: 1 1 500px;
+    max-width: 500px;
+    margin-top: 50px; /* робимо так само, як для тексту */
+}
+
+/* Або якщо хочеш окремо для вікна таблиці */
+.table-window {
+    margin-top: 20px; /* можна підкоригувати, якщо треба */
+}
